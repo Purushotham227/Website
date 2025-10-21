@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
  
-<header>
-    <h1>Welcome to my Portfolio</h1>
+<header id="home">
+    <h1 style="color:font:bolder">Welcome to my Portfolio</h1>
 
-    <a href="https://www.linkedin.com/in/purushotham-rodda-5b9167333/">
-        <button>Linkdin</button>
-    <a href="https://www.youtube.com/@Techyguytelugu">
-        <button>Youtube</button>
-    <a href="https://www.instagram.com/purushotham_227/">
-        <button>Instagram</button>
-    
-        <button>Contact</button>
+    <div>
+
+    <a href="#About">
+        <button class="hdb">About</button>
+    <a href="#Skills">
+        <button class="hdb">Skills</button>
+    <a href="#Projects">
+        <button class="hdb">Projects</button>
+    <a href="#Contact">
+        <button class="hdb">Contact</button>
+
     </a>
+</div>
 
 
 </header>
 <main>
     <section id="About">
-        <h2>Purushotham</h2>
+        <h2 class="headings">Purushotham</h2>
     
    <img src="purush.jpg"alt="my image"width="200"height="220">
 
 
-    <p>"Hi, I'm <strong>Purushotham</strong><br> a web developer focused on creating clean, intuitive, and dynamic user interfaces.<br> I specialize in turning complex problems into simple, beautiful, and user-friendly digital experiences".</p>
+    <p class="mybio"> I'm <b> Purushotham,</b> a B.Tech student with a passion for both technology and creativity. I have experience in HTML, CSS, Python, C, and Java, and I'm also skilled in graphic design and video editing.<br><br> Alongside my technical skills, I enjoy content creation and exploring new digital trends. In my free time, I’m involved in crypto mining and run an online business called Frame Space MBNR, while also working on creative projects through Raisers Media. I'm always eager to learn, build, and bring ideas to life.</p>
 
 
     </section>
     <section id="Skills">
-        <h2>Skills</h2>
-     <ol>
+        <h2 class="headings">Skills</h2>
+     <ol class="skil">
         <li>HTML</li>
         <li>CSS</li>
         <li>PYTHON</li>
@@ -46,8 +48,8 @@
 
     </section>
     <section id="Projects">
-        <h1>My Projects</h1>
-<table border="1">
+        <h1 class="headings">My Projects</h1>
+<table border="1" class="tbl">
 
     <tr>
 
@@ -66,21 +68,21 @@
 
 </table>
 
-    </section>
-    <section id="Contact">
-        <h1>Contact Me</h1>
+    </section >
+    <section id="Contact" class="inputs">
+        <h1 class="headings">Contact Me</h1>
         <p>Feel free to get in touch with me</p>
         <form>
-            <label for="name">Name:</label>
-            <input type="text">
+            <label for="name">Name: </label>
+            <input type="text" class="inp">
             <br>
             <br>
-            <label>Email:</label>
-            <input type="email">
+            <label>Email:  </label>
+            <input type="email" class="inp">
             <br>
             <br>
-            <label for="number">Number:</label>
-            <input type="number">
+            <label for="number" class="inp">Number:</label>
+            <input type="number" class="inp">
             <br>
             <br>
             <br>
@@ -110,7 +112,7 @@
             <input type="checkbox" id="sports" value="sports">
             <br>
             <br>
-            <button type="submit">Submit</button>
+            <button type="submit" class="sub">Submit</button>
 
 
 
@@ -122,6 +124,8 @@
 </main>
 <br>
 <br>
+ <a href="#home">
+        <button class="top">TOP</button>
 
 <footer>(C)2025 All rights reserved | Purushotham </footer>
 
