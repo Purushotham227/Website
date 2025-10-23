@@ -29,10 +29,12 @@ header h1{
     cursor: pointer;
     margin: 15px;
     align-items: center;
+    transition: all 0.3s ease 0s;
 }
 .hdb:hover{
     background-color: rgb(92, 92, 228);
     color: white;
+    transform: translateY(10px);
 }
 section{
     height: 100vh;
